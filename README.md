@@ -40,6 +40,8 @@ Gotcha HTTP Client是一个买断制应用，一次购买，终身更新。
 - **78元**购买永久版本
 
 ### 技术支持
+
+遇到问题请提交ISSUE，或加入以下群聊与我沟通。
  
 - 微信交流群
 
@@ -59,7 +61,7 @@ Gotcha HTTP Client是一个买断制应用，一次购买，终身更新。
 
 > Gotcha启动后会生成一个默认项目"Playground"，你可以在该项目中测试各项功能。
 
-![img](images/tutorial/#1_create_project.jpeg)
+![img](images/tutorial/create_project.png)
 
 1. 点击打开项目创建和导入面板
 2. 新建空白项目，你可以在项目中自由创建或导入HTTP请求
@@ -71,7 +73,7 @@ Gotcha HTTP Client是一个买断制应用，一次购买，终身更新。
 
 > Gotcha中的分组和请求之间可以随意排列和嵌套
 
-![img](images/tutorial/#2_request_and_group.jpeg)
+![img](images/tutorial/request_and_group_manager.png)
 
 1. 在根目录创建请求或分组，也可以导入Postman Collection文件
 2. 使用右键菜单
@@ -86,7 +88,7 @@ Gotcha HTTP Client是一个买断制应用，一次购买，终身更新。
 
 > Gotcha通过参数化URL的模式可以让你直接编辑其中的每一部分
 
-![img](images/tutorial/#3_url_parameters.jpeg)
+![img](images/tutorial/url_parameters_editor.png)
 
 1. HTTP请求方法选择，点击菜单中的'+'按钮可以编辑自定义请示方法
 2. URL编辑栏，支持直接导入**cURL**，过去使用过的URL会出现自动提示
@@ -98,14 +100,64 @@ Gotcha HTTP Client是一个买断制应用，一次购买，终身更新。
 
 > Gotcha中可以直观的看到当前会发送的Cookie信息
 
-![img](images/tutorial/#3_url_parameters.jpeg)
+![img](images/tutorial/headers_and_cookies_editor.png)
 
 1. Header的编辑和URL参数是一样，也会提示常用的Header
 2. Cookie编辑器会显示当前域名下存在的Cookie，也可以手动添加
+3. 通过右上角的Cookie Jar管理页面，可以添加多个Cookie Jar，用于模拟多用户的情况
 
+#### 编辑Body请求体
 
+> Gotcha支持几种常见的Body类型，并提供了一个独立的JSON编辑器
 
+PS: 切换Body类型后，对应的Content-Type也会自动修改。
 
+##### Text类型
+
+![img](images/tutorial/text_request_body.png)
+
+##### Json类型
+
+使用Json编辑器的优势
+
+- 无需处理格式和符号问题，例如忘记删除逗号
+- 支持选择性发送某些值
+- 支持拖动改变节点排列顺序和层级结构，交互模式与**接口管理**一致
+
+![img](images/tutorial/json_request_body.png)
+
+1. 全部展开或全部收起节点
+2. 预览JSON文本(只读模式)
+3. 通过剪切板或文件导入Json
+4. 选择节点类型 
+
+##### Form类型
+
+![img](images/tutorial/form_request_body.png)
+
+##### Multipart类型
+
+![img](images/tutorial/multipart_request_body.png)
+
+##### GraphQL类型
+
+![img](images/tutorial/graphql_request_body.png)
+
+#### 为参数填写注释并导出接口文档
+
+> TODO
+
+#### 环境变量与Cookie Jar管理
+
+> TODO 
+
+#### HTTP请求各类选项设置
+
+> TODO
+
+#### 为返回响应设置断言
+
+> TODO
 
 
 
