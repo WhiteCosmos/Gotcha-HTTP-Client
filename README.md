@@ -82,11 +82,26 @@ Gotcha HTTP Client是一个买断制应用，一次购买，终身更新。
 	- 使用**Command**快捷键多选，**Shift**快捷键可以连选，支持批量拖动
 	- 当分组为**收起状态**时，拖动位置会区分为**里侧**和**外侧**，里侧会放置对象到目标分组内部，外侧则放置在相邻位置
 	
-#### 使用URL参数
+#### 编辑URL参数
 
-> Gotcha通过参数化URL的模式让你可以直接编辑URL中的每一部分
+> Gotcha通过参数化URL的模式可以让你直接编辑其中的每一部分
 
+![img](images/tutorial/#3_url_parameters.jpeg)
 
+1. HTTP请求方法选择，点击菜单中的'+'按钮可以编辑自定义请示方法
+2. URL编辑栏，支持直接导入**cURL**，过去使用过的URL会出现自动提示
+3. Path编辑器，支持编辑任意一段Path参数
+4. Query参数编辑
+5. 对于参数较长的情况，可以打开一个独立的编辑页面
+
+#### 编辑Header和Cookie
+
+> Gotcha中可以直观的看到当前会发送的Cookie信息
+
+![img](images/tutorial/#3_url_parameters.jpeg)
+
+1. Header的编辑和URL参数是一样，也会提示常用的Header
+2. Cookie编辑器会显示当前域名下存在的Cookie，也可以手动添加
 
 
 
