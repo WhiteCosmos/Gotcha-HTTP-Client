@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="images/logo.png" width="120" height="120" />
+</p>
+
 # Gotcha HTTP Client - MacOS独占的HTTP接口测试工具
 
 Gotcha HTTP Client是一个用于发送HTTP请求和查看返回信息的测试工具，UI设计简约，交互方便易于上手。使用过程中无需联网，所有数据均存放在本地。
