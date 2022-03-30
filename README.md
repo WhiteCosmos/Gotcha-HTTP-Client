@@ -34,11 +34,11 @@ Gotcha HTTP Client是一个买断制应用，一次购买，终身更新。
  
 - 微信交流群
 
-![img](images/WECHAT_GROUP.jpg)
+![img](images/wechat_group.jpg)
 
 - QQ交流群
 
-![img](images/QQ_GROUP.jpeg)
+![img](images/qq_group.jpg)
 
 ### 使用说明
 
