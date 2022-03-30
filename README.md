@@ -12,7 +12,7 @@ Gotcha HTTP Client并非开源软件，本仓库用于BUG跟踪和问题反馈�
 
 Gotcha HTTP Client is not open source, you can report any bugs or features here.
 
-- (English Documentation)[README_EN.md]
+- [README_EN](README_EN.md)
 
 ![img](images/preview.png)
 
