@@ -6,7 +6,13 @@
 
 Gotcha HTTP Client是一个用于发送HTTP请求和查看返回信息的测试工具，UI设计简约，交互方便易于上手。使用过程中无需联网，所有数据均存放在本地。
 
+Gotcha HTTP Client is a lightweight http client that allows you to make requests and inspect responses. It has pretty UI/UX design, and very easy to use. Gotcha is a standalone software and can be used without NETWORK.
+
 Gotcha HTTP Client并非开源软件，本仓库用于BUG跟踪和问题反馈。
+
+Gotcha HTTP Client is not open source, you can report any bugs or features here.
+
+- (English Documentation)[README_EN.md]
 
 ![img](images/preview.png)
 
