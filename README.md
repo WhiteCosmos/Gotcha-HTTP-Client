@@ -59,8 +59,60 @@ Gotcha HTTP Client是一个买断制应用，一次购买，终身更新。
 
 ### 功能列表
 
-> TODO
+以下为Gotcha HTTP Client支持的功能清单，未完成的功能会标注为**开发中**
 
+ 1. Url编辑
+ 
+ - 支持复制curl到Url编辑栏，直接导入curl
+ - 支持编辑Path和Query参数
+ - 支持添加自定义HTTP请求方法
+ 
+ 2. 支持的请求体类型
+ 
+ - Text 模式，支持多种语法高亮
+ - JSON 模式，支持通过剪切板和文件导入JSON
+ - Form 表单上传(form-urlencoded)
+ - Multipart 文件上传
+ - Binary格式**(开发中)**
+ - GraphQL 请求
+
+ 3. Header 和 Cookie
+ 
+ - 支持常用Header类型自动提示
+ - 支持添加和删除自定义Cookie
+ - 支持自动接收和发送Cookie
+ - 多CookieJar切换和管理
+ 
+ 4. 接口认证
+ 
+ - 支持 HTTP Basic Auth
+ - OAuth 2.0 **(开发中)**
+ - Digest Auth **(开发中)**
+ 
+ 5. 导入和导出
+ 
+ - 支持导入Postman Collection文件
+ - 支持通过文件或URL导入Swagger/OpenAPI文件，替代SwaggerUI
+ - 支持通过Java项目直接生成API文档，支持Spring/SpringFox/JAX-RS框架
+ - 支持导出单个请求到curl
+ - 支持填写参数注释，并导出请求为Markdown格式的接口文档
+ 
+ 6. 环境变量
+ 
+ - 支持环境变量和环境变量分组
+ - 支持全局变量
+ 
+ 7. 为请求参数添加注释
+ 
+ - 支持为请求参数添加注释
+ - 支持保存返回响应作为文档示例
+ - 支持导出Markdown格式的接口文档
+ 
+ 8. 返回响应断言和校验
+ 
+ - 支持对响应Headers设置断言
+ - 支持对Json格式的响应体设置断言
+ 
 ### 使用指南
 
 #### 创建项目
@@ -153,15 +205,23 @@ PS: 切换Body类型后，对应的Content-Type也会自动修改。
 
 > TODO
 
-#### 环境变量与Cookie Jar管理
+#### 使用环境变量与全局变量
 
 > TODO 
+
+#### 使用Cookie Jar
+
+> TODO
 
 #### HTTP请求选项设置
 
 > TODO
 
 #### 为返回响应设置断言
+
+> TODO
+
+#### 访问历史请求记录
 
 > TODO
 
