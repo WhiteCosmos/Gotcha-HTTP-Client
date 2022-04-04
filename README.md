@@ -25,20 +25,20 @@ Gotcha HTTP Client is not open source, you can report any bugs or features here.
 - [功能列表](#功能列表)
 - [使用指南](#使用指南)
 
-### 最新版本 1.4.3 (2022/03/27)
+### 最新版本 1.4.4 (2022/04/4)
 
-新功能
-
-1. 新增全局变量功能，进入环境变量管理页面添加全局变量
-2. 增加Postman Collection文件导入功能，包括以下部分
-	- Header
-	- Path参数
-	- Query参数
-	- Body(Raw, Form, Multipart)
+功能优化
+​
+1. 自动保存功能优化，关闭Tab页或者发送请求后均会自动保存数据
+2. 接口增加请求状态提示
+3. URL栏中新增直接复制URL按钮
+4. 请求右上角新增布局调整菜单，点击即可调整request/response视图的布局
 
 BUG修复
 
-1. 修复使用URL补全后，对URL的修改没有同步到对应参数的问题
+1. 修复历史记录中URL过长时，展示异常的问题
+2. 修复多个请求同时等待时，计时器计数异常的问题
+3. 修复Split View拖动时的样式问题
 
 ### 下载地址
 
