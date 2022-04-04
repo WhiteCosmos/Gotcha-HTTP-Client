@@ -154,7 +154,7 @@ Gotcha HTTP Client是一个买断制应用，一次购买，终身更新。
 
 ![img](images/tutorial/url_parameters_editor.png)
 
-1. HTTP请求方法选择，点击菜单中的'+'按钮可以编辑自定义请示方法
+1. HTTP请求方法选择，点击菜单中的'+'按钮可以编辑自定义请求方法
 2. URL编辑栏，支持直接导入**cURL**，过去使用过的URL会出现自动提示
 3. Path编辑器，支持编辑任意一段Path参数
 4. Query参数编辑
@@ -176,11 +176,13 @@ Gotcha HTTP Client是一个买断制应用，一次购买，终身更新。
 
 PS: 切换Body类型后，对应的Content-Type也会自动修改。
 
-##### Text类型
+##### Text
 
 ![img](images/tutorial/text_request_body.png)
 
-##### Json类型
+1. 右下角可以选择文本模式，同时Content-Type也会对应变化，如果要改为其它类型，需要到Header页面手动修改
+
+##### Json
 
 使用Json编辑器的优势
 
@@ -195,25 +197,68 @@ PS: 切换Body类型后，对应的Content-Type也会自动修改。
 3. 通过剪切板或文件导入Json
 4. 选择节点类型 
 
-##### Form类型
+##### Form
 
 ![img](images/tutorial/form_request_body.png)
 
-##### Multipart类型
+##### Multipart
 
 ![img](images/tutorial/multipart_request_body.png)
+
+1. 支持选择文本类型或文件类型
 
 ##### GraphQL类型
 
 ![img](images/tutorial/graphql_request_body.png)
 
-#### 为参数填写注释并导出接口文档
+#### 参数注释
 
-> TODO
+> Gotcha支持保存响应数据并作为示例导出
+
+```
+注意事项:
+
+在Headers、Url Params、Body中填写的参数，会自动出现在Docs页面中，暂时无法直接修改
+```
+
+##### Header和Query参数
+
+![img](images/tutorial/doc_header_params.png)
+
+1. 参数名称
+2. 是否必需填写
+3. 参数注释
+
+##### Path参数
+
+![img](images/tutorial/doc_path_params.png)
+
+1. 勾选Param选项后，可以指定某一段Path为参数，并且Index变为**可以编辑**的状态，填写参数名称
+2. 指定Path参数后，上方的Path也会变为{{name}}的形式
+
+##### 请求数据示例
+
+![img](images/tutorial/doc_payload.png)
+
+1. Text和Json会导出为请求示例
+2. Form和Multipart类型可以填写注释
+3. 在返回响应中保存为响应示例
+
+##### 导出为Markdown格式的接口文档
+
+![img](images/tutorial/doc_copy_as_markdown.png)
+
+1. 点击'Copy as Markdown'即可
 
 #### 使用环境变量与全局变量
 
-> TODO 
+> Gotcha通过表单的方式统一管理所有环境中的所有变量
+
+![img](images/tutorial/environment_variables_manager.png)
+
+1. 点击打开菜单，创建变量和新环境
+2. 双击修改环境名称，拖动改变环境顺序，右键菜单删除环境
+3. 在参数值中使用{{变量名}}即可引用环境变量
 
 #### 使用Cookie Jar
 
@@ -221,7 +266,7 @@ PS: 切换Body类型后，对应的Content-Type也会自动修改。
 
 #### HTTP请求选项设置
 
-> TODO
+> TODO 
 
 #### 为返回响应设置断言
 
