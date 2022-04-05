@@ -1,13 +1,40 @@
-# Gotcha HTTP Client - A Powerful Postman/Paw Alternative
+<p align="center">
+  <img src="images/logo.png" width="120" height="120" />
+</p>
 
-![Preview](images/Preview(1).png)
+# Gotcha HTTP Client - A Ultimate API Develop Tool
 
-* [中文文档](README_CN.md)
+Gotcha HTTP Client is a lightweight http client that allows you to make requests and inspect responses. It has pretty UI/UX design, and very easy to use. This is a standalone software and can be used without NETWORK.
 
-Gotcha HTTP Client is a lightweight http client that allows you to make requests and inspect responses.
+Gotcha HTTP Client is not open source, you can report any bugs or features here.
 
-Unlike postman, Gotcha has a better UI/UX， less memory usage, fast start up speed, complete standalone.
+![img](images/preview.png)
 
-## Privacy
+## Menu 
 
-There is no backend or cloud sync, all the data is stored locally on your computer.
+- [Latest Version](#Latest Version)
+- [Download](#Download)
+- [Purchase](#Purchase)
+- [Features](#Features)
+- [How to use](#How to use)
+
+### Latest Version (1.4.4) (2022/04/4)
+
+> TODO
+
+### Download
+
+[Mac App Store](https://apps.apple.com/cn/app/gotcha-http-client/id1524200727)
+
+### Purchase
+
+ - We provide **14 days** free trial
+ - $11.99 purchase full version
+ 
+### Features
+
+> TODO
+
+### How to use
+
+> TODO
