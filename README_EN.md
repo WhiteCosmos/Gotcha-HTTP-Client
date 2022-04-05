@@ -12,12 +12,13 @@ Gotcha HTTP Client is not open source, you can report any bugs or features here.
 
 ## Menu 
 
-- [Latest Version](#Latest Version)
+- [Latest Version](#latest_version)
 - [Download](#Download)
 - [Purchase](#Purchase)
 - [Features](#Features)
-- [How to use](#How to use)
+- [How to use](#usage)
 
+<a name="latest_version"></a>
 ### Latest Version (1.4.4) (2022/04/4)
 
 > TODO
@@ -35,6 +36,7 @@ Gotcha HTTP Client is not open source, you can report any bugs or features here.
 
 > TODO
 
+<a name="usage"></a>
 ### How to use
 
 > TODO
