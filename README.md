@@ -14,7 +14,7 @@ Gotcha HTTP Client is not open source, you can report any bugs or features here.
 
 - [README_EN](README_EN.md)
 
-**Follow my twitter for latest news !!!** [Twitter](https://twitter.com/whitecosm0s)
+**[Follow My Twitter For Latest News!!!](https://twitter.com/whitecosm0s)** 
 
 ![img](images/preview.png)
 
