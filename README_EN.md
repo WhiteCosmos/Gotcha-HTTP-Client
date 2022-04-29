@@ -19,22 +19,19 @@ Gotcha HTTP Client is not open source, you can report any bugs or features here.
 - [How to use](#usage)
 
 <a name="latest_version"></a>
-### Latest Version (1.4.4) (2022/04/4)
+### Latest Version (1.4.5) (2022/04/28)
 
 What's New
 
-Optimize
+Features
 
-1. Auto-saving，close tab or send request complete will auto-save your data
-2. Add request status in tree-view
-3. Add copy button in url editor
-4. Add layout menu, click to change request/response view layout
+- Support importing swagger file as requests
+- Support editing parameters in 'docs' tab
+- Make importing JSON collapsed as default
 
 Bug Fix
 
-1. Fix style glitch in history menu with too long url
-2. Fix timer error when multiple request pending
-3. Fix style glitch when drag split view
+- Fix request complete but status not changed issue
 
 ### Download
 
