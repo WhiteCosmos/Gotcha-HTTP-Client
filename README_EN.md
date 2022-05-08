@@ -19,19 +19,28 @@ Gotcha HTTP Client is not open source, you can report any bugs or features here.
 - [How to use](#usage)
 
 <a name="latest_version"></a>
-### Latest Version (1.4.5) (2022/04/28)
+### Latest Version (1.4.6) (2022/05/08)
 
-What's New
+New Feature
 
-Features
+- Query parameters support choosing array type and format
 
-- Support importing swagger file as requests
-- Support editing parameters in 'docs' tab
-- Make importing JSON collapsed as default
+UI/UX Optimize
 
-Bug Fix
+- Replace 'Overview' tab with new home page
+- Replace free icons with our own
+- Export cURL support multipart and file
+- Export cURL support resolving env and global variables
+- Add 'Close to the Left' and 'Close to the Right' to tab's context menu
+- Add 'Expand All' and 'Collapse All' options into Json Editor's context menu
+- Add 'Rename' option to group and request's context menu
+- Add response header's count display
 
-- Fix request complete but status not changed issue
+BUG Fix
+
+- Fix multiple cURL export problem
+- Fix navigate to target not work when click tab
+- Fix header's required status not checked problem
 
 ### Download
 
