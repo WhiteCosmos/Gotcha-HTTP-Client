@@ -27,17 +27,28 @@ Gotcha HTTP Client is not open source, you can report any bugs or features here.
 - [功能列表](#功能列表)
 - [使用指南](#使用指南)
 
-### 最新版本 1.4.5 (2022/04/28)
+### 最新版本 1.4.6 (2022/05/08)
 
-新功能和优化
+新功能
 
-- 支持导入Swagger 2.0文件为接口请求
-- 支持在接口文档页面中编辑参数
-- 优化JSON导入后为默认折叠状态
+- Query参数增加数组类型，同时支持选择数组格式
+
+交互优化
+
+- 去掉Overview标签页，改为通用起始页
+- icon优化，不再使用免费icon
+- cURL导出增加Multipart类型导出
+- cURL导出支持解析环境变量和全局变量
+- 标签页菜单增加「Close to the Left」和「Close to the Right」选项
+- JSON编辑器中的节点菜单增加「Expand All」和「Collapse All」选项，支持全部展开或收起单个节点 
+- 分组和请求中的右键菜单增加「Rename」功能和快捷键
+- 返回响应头增加数量展示
 
 BUG修复
 
-- 修复接口请求完成后，接口状态没有同步更新的问题
+- 修复多个cURL导出问题
+- 修复点击标签页时未导航到对应请求的问题
+- 修复创建Header时，required没有默认选中的问题
 
 ### 下载地址
 
