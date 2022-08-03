@@ -27,28 +27,29 @@ Gotcha HTTP Client is not open source, you can report any bugs or features here.
 - [功能列表](#功能列表)
 - [使用指南](#使用指南)
 
-### 最新版本 1.4.6 (2022/05/08)
+### 最新版本 1.5.0 (2022/08/02)
 
 新功能
 
-- Query参数增加数组类型，同时支持选择数组格式
+- 支持批量导出接口，并且允许编辑不同的导出配置
+- 支持通过右键菜单直接导出分组中的所有接口
+- 支持通过右键菜单直接复制单个接口到 Markdown / cURL 格式
+- 支持key-value或json格式导入或导出参数(header/cookie/query/path)
 
-交互优化
+功能优化
 
-- 去掉Overview标签页，改为通用起始页
-- icon优化，不再使用免费icon
-- cURL导出增加Multipart类型导出
-- cURL导出支持解析环境变量和全局变量
-- 标签页菜单增加「Close to the Left」和「Close to the Right」选项
-- JSON编辑器中的节点菜单增加「Expand All」和「Collapse All」选项，支持全部展开或收起单个节点 
-- 分组和请求中的右键菜单增加「Rename」功能和快捷键
-- 返回响应头增加数量展示
+- 支持在Json/Form/Multipart中使用动态变量
+- 优化Cookie管理功能，UI/UX调整为与环境管理一致
+- 缓存已打开的Tab页，下次打开应用时会自动打开
+- 环境变量搜索功能可用
+- cURL导入支持Form/Multipart格式
+- UI和字体调整
 
-BUG修复
+BUG 修复
 
-- 修复多个cURL导出问题
-- 修复点击标签页时未导航到对应请求的问题
-- 修复创建Header时，required没有默认选中的问题
+- 修复部分英文翻译问题
+- 修复cURL导入有时不显示Body的问题
+- 修复动态变量枚举排序不生效的问题
 
 ### 下载地址
 
